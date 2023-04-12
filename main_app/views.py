@@ -1,10 +1,5 @@
 from django.shortcuts import render
-
-n64 = [
-  {"name": "Mario Kart 64", "genre": "Racing", "franchise": "Mario"},
-  {"name": "Pokemon Stadium", "genre": "stratergy", "franchise": "Pokemon"},
-  ]
-
+from .models import Game
 # Define the home view
 def home(request):
   # Include an .html file extension - unlike when rendering EJS templates
@@ -14,4 +9,9 @@ def about(request):
   return render(request, 'about.html')
 
 def n64_index(request):
-  return render(request, 'n64_games/index.html', {'n64': n64})
+  n64 = Game.objects.all()
+  return render(request, 'N64_games/index.html', {'n64': n64})
+
+def games_detail(request, game_id):
+  game = Game.objects.get(id=game_id)
+  return render(request, 'N64_games/details.html', { 'n64': game })

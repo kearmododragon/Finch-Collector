@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Game Details</h1>
+
+<div class="card">
+  <div class="card-content">
+    <span class="card-title">{{ n64.name }}</span>
+    <p>Genre: {{ n64.genre }}</p>
+    <p>franchise: {{ n64.franchise }}</p>
+    <p> Description: {{ n64.description }}</p>
+  </div>
+</div>
+
+
+{% endblock %}
