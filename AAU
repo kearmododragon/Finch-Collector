@@ -3,7 +3,10 @@
 - AAU, when I visit the `All Finches` page, I want to view a list of all finches (index view) that displays each of the attributes of a finch.
 
 
--- Create 'about' and 'All Finches' pages
--- correctly route them
--- navigate through a nav bar 
--- 'All Finches' index view to display attibutes of a finch.
+-- Create 'about' and 'All Finches' pages [DONE]
+-- correctly route them [DONE]
+-- navigate through a nav bar  [needs to be created]
+-- 'All Finches' index view to display attibutes of a finch. [needs to be created]
+-- Replace "Finches" with N64
+
+https://seir-22123.notion.site/Django-URLS-Views-Templates-a5c3f1fe285f46a9834ba7653556c338
