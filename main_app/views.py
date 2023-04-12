@@ -9,4 +9,4 @@ def about(request):
   return render(request, 'about.html')
 
 def allfinches(request):
-  return render(request, 'N64_games.html')
+  return render(request, 'n64_games.html')
