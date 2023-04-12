@@ -12,5 +12,5 @@ def home(request):
 def about(request):
   return render(request, 'about.html')
 
-def allfinches(request):
+def allgames(request):
   return render(request, 'n64_index.html', {'n64': n64})
