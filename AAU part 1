@@ -1,3 +1,5 @@
+Part 1 complete
+
 - AAU, I want to be able to navigate to separate pages for `About` and `All Finches` using a navbar
 - AAU, when I visit the `About` page, I want to view some details about the finchcollector application.
 - AAU, when I visit the `All Finches` page, I want to view a list of all finches (index view) that displays each of the attributes of a finch.
@@ -6,7 +8,7 @@
 -- Create 'about' and 'All Finches' pages [DONE]
 -- correctly route them [DONE]
 -- navigate through a nav bar  [DONE]
--- 'All Finches' index view to display attibutes of a finch. [needs to be created]
+-- 'All Finches' index view to display attibutes of a game. [DONE]
 -- Replace "Finches" with N64[DONE - continuous]
 
 https://seir-22123.notion.site/Django-URLS-Views-Templates-a5c3f1fe285f46a9834ba7653556c338

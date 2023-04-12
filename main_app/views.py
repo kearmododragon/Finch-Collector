@@ -1,4 +1,5 @@
 from django.shortcuts import render
+
 n64 = [
   {"name": "Mario Kart 64", "genre": "Racing", "franchise": "Mario"},
   {"name": "Pokemon Stadium", "genre": "stratergy", "franchise": "Pokemon"},
@@ -12,5 +13,5 @@ def home(request):
 def about(request):
   return render(request, 'about.html')
 
-def allgames(request):
-  return render(request, 'n64_index.html', {'n64': n64})
+def n64_index(request):
+  return render(request, 'n64_games/index.html', {'n64': n64})
