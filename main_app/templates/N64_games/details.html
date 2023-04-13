@@ -10,6 +10,10 @@
     <p>franchise: {{ n64.franchise }}</p>
     <p> Description: {{ n64.description }}</p>
   </div>
+  <div class = "card-action">
+    <a href ="{% url 'game-update' n64.id %}">Edit</a>
+    <a href ="{% url 'game-delete' n64.id %}">Delete</a>
+  </div>
 </div>
 
 

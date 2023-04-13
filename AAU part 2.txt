@@ -1,4 +1,4 @@
-Part 2 
+Part 2 Complete
 1. Create a Finch model with at least three attributes.
 2. Using the Python Interactive Shell (`python3 manage.py shell`), create some finches in your database to be rendered on the page.
     
