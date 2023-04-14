@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from .models import Game
+from .forms import LevelsForm
 
 # Define the home view
 def home(request):
@@ -16,6 +17,7 @@ def n64_index(request):
 
 def games_detail(request, game_id):
   game = Game.objects.get(id=game_id)
+  Levels_Form = LevelsForm()
   return render(request, 'N64_games/details.html', { 'n64': game })
 
 

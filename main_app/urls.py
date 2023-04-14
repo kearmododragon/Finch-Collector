@@ -10,4 +10,5 @@ urlpatterns = [
   path('n64_index/create/', views.GameCreate.as_view(), name="game-create"),
   path('n64_index/<int:pk>/update/', views.GameUpdate.as_view(), name='game-update'),
   path('n64_index/<int:pk>/delete/', views.GameDelete.as_view(),  name='game-delete'),
+  path('n64_games/<int:n64_id>/add_level/', views.add_level, name='add_level'),
 ]

@@ -15,6 +15,26 @@
     <a href ="{% url 'game-delete' n64.id %}">Delete</a>
   </div>
 </div>
+<div class="col s6">
+  <form method ="POST">
+    {% csrf_token %}
+    {{levels_form.as.p}}
+    <input type ="submit" class="btn" value="Add Levels">
+  </form>
+  <table class="striped">
+    <thead>
+      <tr><th>Level Number:</th><th>Level Name:</th></tr>
+    </thead>
+    <tbody>
+      {% for levels in n64.levels_set.all %}
+        <tr>
+          <td>{{levels.number}}</td>
+          <td>{{levels.name}}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
 
 
 {% endblock %}
