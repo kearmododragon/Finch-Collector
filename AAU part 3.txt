@@ -1,4 +1,4 @@
-Part 3
+Part 3 Complete
 Use notion from part 2, to make the links coded nicer
 https://seir-22123.notion.site/Django-Models-b8d4df5ccf20485894d62b791a8eb577
 
