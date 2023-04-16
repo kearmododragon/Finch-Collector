@@ -1,5 +1,13 @@
 Part 4
 
+URLS are all sorted.
+
+HOWEVER there's no way to input new levels
+
+Add Levels button needs to redirect to a new page to input the data or on that page there should be text boxes to input number and name 
+
+
+
 ## Exercises
 
 Following the steps we took in the **Django - One:Many Relationships lesson**, complete the following exercises:

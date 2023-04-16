@@ -1,4 +1,4 @@
-Part 5
+Part 5 [HUNGRY FOR MORE, NOT ESSENTIAL]
 
 1. Create another model that will have a Many:Many relationship with your main data entity.
     - Don't forget to add a ManyToManyField on one of the Models.
