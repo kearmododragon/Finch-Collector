@@ -1,12 +1,4 @@
-Part 4
-
-URLS are all sorted.
-
-HOWEVER there's no way to input new levels
-
-Add Levels button needs to redirect to a new page to input the data or on that page there should be text boxes to input number and name 
-
-
+Part 4 [complete]
 
 ## Exercises
 
@@ -25,7 +17,7 @@ Following the steps we took in the **Django - One:Many Relationships lesson**, c
 
 -- create another model, 1 to many. [Levels [number, name]] [DONE]
 -- on game detail page, see the related new model           [DONE]
--- be able to add to the new model from the detail page     []
+-- be able to add to the new model from the detail page     [DONE]
 
 -- add a custom message relating to the new information 
 [Is Mario a playable character?]

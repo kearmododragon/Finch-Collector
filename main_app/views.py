@@ -23,8 +23,8 @@ def n64_index(request):
 def games_detail(request, game_id):
     game = Game.objects.get(id=game_id)
     print(game_id)
-    Levels_Form = LevelsForm()
-    return render(request, 'N64_games/details.html', {'n64': game})
+    levels_form = LevelsForm()
+    return render(request, 'N64_games/details.html', {'n64': game, "levels_form": levels_form})
 
 
 def add_levels(request, game_id):
