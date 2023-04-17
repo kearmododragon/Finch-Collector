@@ -48,4 +48,4 @@ class GameUpdate(UpdateView):
 
 class GameDelete(DeleteView):
     model = Game
-    success_URL = "/N64_games"
+    success_url = "/n64_index"
