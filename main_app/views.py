@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+import os
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from .models import Game
 from .forms import LevelsForm
@@ -34,6 +35,9 @@ def add_levels(request, game_id):
         new_level.game_id = game_id
         new_level.save()
     return redirect("detail", game_id=game_id)
+
+def some_function(request):
+    secret_key = os.environ['SECRET_KEY']
 
 
 class GameCreate(CreateView):
